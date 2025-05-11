@@ -1,0 +1,4 @@
+data/
+test_data/
+testing_scripts/
+*.json
