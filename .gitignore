@@ -1,4 +1,5 @@
 data/
 test_data/
 testing_scripts/
+word_documents/
 *.json
