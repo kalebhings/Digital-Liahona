@@ -1,0 +1,503 @@
+{
+  "_id": "jude1",
+  "nextChapterId": "revelation1",
+  "prevChapterId": "3john1",
+  "volume": {
+    "title": "New Testament",
+    "titleShort": "NT",
+    "titleOfficial": "The New Testament",
+    "_id": "newtestament"
+  },
+  "book": {
+    "title": "Jude",
+    "titleShort": "Jude",
+    "titleOfficial": "",
+    "subtitle": "",
+    "summary": "",
+    "_id": "jude"
+  },
+  "chapter": {
+    "bookTitle": "Jude",
+    "delineation": "Chapter",
+    "number": 1,
+    "summary": "Contend for the faith—Some angels kept not their first estate—Michael disputed about the body of Moses—Enoch prophesied of the Second Coming—Mockers will come in the last days.",
+    "chapterAugmentations": [],
+    "verses": [
+      {
+        "text": "Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called:",
+        "footnotes": [
+          {
+            "footnote": "JST Jude 1:1 Jude, the servant of God, called of Jesus Christ, and brother of James; to them who are sanctified of the Father; and preserved in Jesus Christ;",
+            "start": 0,
+            "end": 4
+          },
+          {
+            "footnote": "TG Servant.",
+            "start": 10,
+            "end": 17
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 135,
+            "end": 138
+          }
+        ]
+      },
+      {
+        "text": "Mercy unto you, and peace, and love, be multiplied.",
+        "footnotes": [],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints.",
+        "footnotes": [
+          {
+            "footnote": "TG Scriptures, Lost.",
+            "start": 38,
+            "end": 43
+          },
+          {
+            "footnote": "2 Ne. 2:4; 26:33; A of F 1:3.",
+            "start": 67,
+            "end": 76
+          },
+          {
+            "footnote": "TG Zeal.",
+            "start": 149,
+            "end": 158
+          },
+          {
+            "footnote": "Philip. 1:27; D&C 112:5.",
+            "start": 159,
+            "end": 166
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 130,
+            "end": 133
+          }
+        ]
+      },
+      {
+        "text": "For there are certain men crept in unawares, who were before of old ordained to this condemnation, ungodly men, turning the grace of our God into lasciviousness, and denying the only Lord God, and our Lord Jesus Christ.",
+        "footnotes": [
+          {
+            "footnote": "2 Pet. 2:19; D&C 29:45; JS—H 1:19.",
+            "start": 22,
+            "end": 25
+          },
+          {
+            "footnote": "TG Godliness.",
+            "start": 99,
+            "end": 106
+          },
+          {
+            "footnote": "GR licentiousness.",
+            "start": 146,
+            "end": 160
+          },
+          {
+            "footnote": "TG Apostasy of the Early Christian Church.",
+            "start": 166,
+            "end": 173
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "I will therefore put you in remembrance, though ye once knew this, how that the Lord, having saved the people out of the land of Egypt, afterward destroyed them that believed not.",
+        "footnotes": [
+          {
+            "footnote": "1 Cor. 10:5 (5, 9).",
+            "start": 93,
+            "end": 98
+          },
+          {
+            "footnote": "Deut. 1:35.",
+            "start": 146,
+            "end": 155
+          },
+          {
+            "footnote": "TG Unbelief.",
+            "start": 166,
+            "end": 178
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And the angels which kept not their first estate, but left their own habitation, he hath reserved in everlasting chains under darkness unto the judgment of the great day.",
+        "footnotes": [
+          {
+            "footnote": "TG Angels; Death, Spiritual, First; Devil; Sons of Perdition; Spirits, Evil or Unclean.",
+            "start": 8,
+            "end": 14
+          },
+          {
+            "footnote": "TG Man, Antemortal Existence of.",
+            "start": 36,
+            "end": 41
+          },
+          {
+            "footnote": "Abr. 3:26 (24–28).",
+            "start": 42,
+            "end": 48
+          },
+          {
+            "footnote": "TG Judgment, the Last.",
+            "start": 144,
+            "end": 152
+          }
+        ],
+        "associatedContents": [
+          {
+            "type": "paper-page-number",
+            "data": 1564
+          }
+        ],
+        "italics": []
+      },
+      {
+        "text": "Even as Sodom and Gomorrha, and the cities about them in like manner, giving themselves over to fornication, and going after strange flesh, are set forth for an example, suffering the vengeance of eternal fire.",
+        "footnotes": [
+          {
+            "footnote": "Gen. 19:24; 2 Pet. 2:6 (1–9).",
+            "start": 8,
+            "end": 13
+          },
+          {
+            "footnote": "TG Fornication.",
+            "start": 96,
+            "end": 107
+          },
+          {
+            "footnote": "TG Homosexual Behavior.",
+            "start": 125,
+            "end": 138
+          },
+          {
+            "footnote": "TG Example.",
+            "start": 161,
+            "end": 168
+          },
+          {
+            "footnote": "D&C 76:105. TG Punish.",
+            "start": 184,
+            "end": 193
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Likewise also these filthy dreamers defile the flesh, despise dominion, and speak evil of dignities.",
+        "footnotes": [
+          {
+            "footnote": "TG Pollution.",
+            "start": 36,
+            "end": 42
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 20,
+            "end": 26
+          }
+        ]
+      },
+      {
+        "text": "Yet Michael the archangel, when contending with the devil he disputed about the body of Moses, durst not bring against him a railing accusation, but said, The Lord rebuke thee.",
+        "footnotes": [
+          {
+            "footnote": "TG Adam.",
+            "start": 4,
+            "end": 11
+          },
+          {
+            "footnote": "TG Angels.",
+            "start": 16,
+            "end": 25
+          },
+          {
+            "footnote": "TG Translated Beings.",
+            "start": 88,
+            "end": 93
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "But these speak evil of those things which they know not: but what they know naturally, as brute beasts, in those things they corrupt themselves.",
+        "footnotes": [],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Woe unto them! for they have gone in the way of Cain, and ran greedily after the error of Balaam for reward, and perished in the gainsaying of Core.",
+        "footnotes": [
+          {
+            "footnote": "Gen. 4:5 (1–15); 1 Jn. 3:12.",
+            "start": 48,
+            "end": 52
+          },
+          {
+            "footnote": "2 Pet. 2:18.",
+            "start": 90,
+            "end": 96
+          },
+          {
+            "footnote": "JST Jude 1:11 … shall perish … Num. 16.",
+            "start": 113,
+            "end": 121
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "These are spots in your feasts of charity, when they feast with you, feeding themselves without fear: clouds they are without water, carried about of winds; trees whose fruit withereth, without fruit, twice dead, plucked up by the roots;",
+        "footnotes": [
+          {
+            "footnote": "2 Pet. 2:17.",
+            "start": 102,
+            "end": 108
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 109,
+            "end": 117
+          }
+        ]
+      },
+      {
+        "text": "Raging waves of the sea, foaming out their own shame; wandering stars, to whom is reserved the blackness of darkness for ever.",
+        "footnotes": [
+          {
+            "footnote": "TG Astronomy.",
+            "start": 64,
+            "end": 69
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints,",
+        "footnotes": [
+          {
+            "footnote": "Gen. 5:23; Heb. 11:5 (5–6); Moses 6:27 (27–65). TG Scriptures, Lost.",
+            "start": 4,
+            "end": 9
+          },
+          {
+            "footnote": "1 Thes. 4:17 (13–18); Moses 7:65 (62–66). TG Jesus Christ, Second Coming.",
+            "start": 85,
+            "end": 91
+          },
+          {
+            "footnote": "TG Saints.",
+            "start": 118,
+            "end": 124
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "To execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds which they have ungodly committed, and of all their hard speeches which ungodly sinners have spoken against him.",
+        "footnotes": [
+          {
+            "footnote": "TG Jesus Christ, Authority of.",
+            "start": 3,
+            "end": 10
+          },
+          {
+            "footnote": "TG Accountability; Jesus Christ, Judge.",
+            "start": 11,
+            "end": 19
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 162,
+            "end": 170
+          }
+        ]
+      },
+      {
+        "text": "These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling words, having men's persons in admiration because of advantage.",
+        "footnotes": [
+          {
+            "footnote": "TG Murmuring.",
+            "start": 10,
+            "end": 19
+          },
+          {
+            "footnote": "TG Lust.",
+            "start": 58,
+            "end": 63
+          },
+          {
+            "footnote": "2 Pet. 2:18 (10–19).",
+            "start": 81,
+            "end": 89
+          },
+          {
+            "footnote": "GR profit, gain.",
+            "start": 158,
+            "end": 167
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 105,
+            "end": 111
+          }
+        ]
+      },
+      {
+        "text": "But, beloved, remember ye the words which were spoken before of the apostles of our Lord Jesus Christ;",
+        "footnotes": [],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "How that they told you there should be mockers in the last time, who should walk after their own ungodly lusts.",
+        "footnotes": [
+          {
+            "footnote": "TG Apostasy of Individuals; Mocking.",
+            "start": 39,
+            "end": 46
+          },
+          {
+            "footnote": "TG Last Days.",
+            "start": 54,
+            "end": 63
+          },
+          {
+            "footnote": "TG Walking in Darkness.",
+            "start": 76,
+            "end": 80
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "These be they who separate themselves, sensual, having not the Spirit.",
+        "footnotes": [
+          {
+            "footnote": "Deut. 13:13; Judg. 20:13.",
+            "start": 18,
+            "end": 26
+          },
+          {
+            "footnote": "TG Holy Ghost, Loss of.",
+            "start": 63,
+            "end": 69
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "But ye, beloved, building up yourselves on your most holy faith, praying in the Holy Ghost,",
+        "footnotes": [
+          {
+            "footnote": "D&C 21:2.",
+            "start": 17,
+            "end": 25
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Keep yourselves in the love of God, looking for the mercy of our Lord Jesus Christ unto eternal life.",
+        "footnotes": [],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And of some have compassion, making a difference:",
+        "footnotes": [
+          {
+            "footnote": "TG Compassion.",
+            "start": 17,
+            "end": 27
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And others save with fear, pulling them out of the fire; hating even the garment spotted by the flesh.",
+        "footnotes": [
+          {
+            "footnote": "Amos 4:11; Mal. 4:1.",
+            "start": 51,
+            "end": 55
+          },
+          {
+            "footnote": "D&C 36:6.",
+            "start": 73,
+            "end": 80
+          }
+        ],
+        "associatedContents": [
+          {
+            "type": "paper-page-number",
+            "data": 1565
+          }
+        ],
+        "italics": [
+          {
+            "start": 35,
+            "end": 39
+          }
+        ]
+      },
+      {
+        "text": "Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy,",
+        "footnotes": [
+          {
+            "footnote": "Rev. 14:4 (2–5).",
+            "start": 71,
+            "end": 80
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 67,
+            "end": 70
+          }
+        ]
+      },
+      {
+        "text": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen.",
+        "footnotes": [],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 34,
+            "end": 36
+          }
+        ]
+      }
+    ]
+  }
+}
