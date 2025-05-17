@@ -1,0 +1,467 @@
+{
+  "_id": "1nephi10",
+  "nextChapterId": "1nephi11",
+  "prevChapterId": "1nephi9",
+  "volume": {
+    "title": "Book of Mormon",
+    "titleShort": "BoM",
+    "titleOfficial": "The Book of Mormon",
+    "_id": "bookofmormon"
+  },
+  "book": {
+    "title": "1 Nephi",
+    "titleShort": "1 Ne",
+    "titleOfficial": "",
+    "subtitle": "",
+    "summary": "",
+    "_id": "1nephi"
+  },
+  "chapter": {
+    "bookTitle": "1 Nephi",
+    "delineation": "Chapter",
+    "number": 10,
+    "summary": "Lehi predicts that the Jews will be taken captive by the Babylonians—He tells of the coming among the Jews of a Messiah, a Savior, a Redeemer—Lehi tells also of the coming of the one who should baptize the Lamb of God—Lehi tells of the death and resurrection of the Messiah—He compares the scattering and gathering of Israel to an olive tree—Nephi speaks of the Son of God, of the gift of the Holy Ghost, and of the need for righteousness. About 600–592 B.C.",
+    "chapterAugmentations": [],
+    "verses": [
+      {
+        "text": "And now I, Nephi, proceed to give an account upon these plates of my proceedings, and my reign and ministry; wherefore, to proceed with mine account, I must speak somewhat of the things of my father, and also of my brethren.",
+        "footnotes": [
+          {
+            "footnote": "1 Ne. 9:2 (1–5); 19:3 (1–6).",
+            "start": 50,
+            "end": 62
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "For behold, it came to pass after my father had made an end of speaking the words of his dream, and also of exhorting them to all diligence, he spake unto them concerning the Jews—",
+        "footnotes": [
+          {
+            "footnote": "1 Ne. 8:2 (2–36).",
+            "start": 89,
+            "end": 94
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "That after they should be destroyed, even that great city Jerusalem, and many be carried away captive into Babylon, according to the own due time of the Lord, they should return again, yea, even be brought back out of captivity; and after they should be brought back out of captivity they should possess again the land of their inheritance.",
+        "footnotes": [
+          {
+            "footnote": "Esth. 2:6; 2 Ne. 6:8; Hel. 8:20 (20–21).",
+            "start": 58,
+            "end": 67
+          },
+          {
+            "footnote": "Ezek. 36:12 (8–15); 2 Ne. 25:10. TG Israel, Bondage of, in Other Lands; Israel, Scattering of.",
+            "start": 81,
+            "end": 93
+          },
+          {
+            "footnote": "Ezek. 24:2; 1 Ne. 1:13; Omni 1:15. TG Babylon.",
+            "start": 107,
+            "end": 114
+          },
+          {
+            "footnote": "Neh. 12:1; Jer. 29:10 (9–10); 2 Ne. 6:9 (8–9); Abr. 2:6.",
+            "start": 171,
+            "end": 177
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Yea, even six hundred years from the time that my father left Jerusalem, a prophet would the Lord God raise up among the Jews—even a Messiah, or, in other words, a Savior of the world.",
+        "footnotes": [
+          {
+            "footnote": "1 Ne. 19:8 (8–14); 2 Ne. 25:19; Alma 13:25; 3 Ne. 1:1.",
+            "start": 10,
+            "end": 21
+          },
+          {
+            "footnote": "1 Ne. 22:21 (20–21).",
+            "start": 75,
+            "end": 82
+          },
+          {
+            "footnote": "TG Israel, Judah, People of.",
+            "start": 121,
+            "end": 125
+          },
+          {
+            "footnote": "Jacob 1:6. TG Jesus Christ, Birth of; Jesus Christ, Messiah.",
+            "start": 133,
+            "end": 140
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And he also spake concerning the prophets, how great a number had testified of these things, concerning this Messiah, of whom he had spoken, or this Redeemer of the world.",
+        "footnotes": [
+          {
+            "footnote": "Jacob 7:11; Mosiah 13:33; Hel. 8:24 (19–24); 3 Ne. 20:24 (23–24). TG Jesus Christ, Prophecies about.",
+            "start": 66,
+            "end": 75
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Wherefore, all mankind were in a lost and in a fallen state, and ever would be save they should rely on this Redeemer.",
+        "footnotes": [
+          {
+            "footnote": "Rom. 3:23; 2 Ne. 2:5 (5–8).",
+            "start": 33,
+            "end": 37
+          },
+          {
+            "footnote": "TG Death, Spiritual, First.",
+            "start": 47,
+            "end": 53
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And he spake also concerning a prophet who should come before the Messiah, to prepare the way of the Lord—",
+        "footnotes": [
+          {
+            "footnote": "1 Ne. 11:27; 2 Ne. 31:4 (4–18). TG Foreordination.",
+            "start": 31,
+            "end": 38
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Yea, even he should go forth and cry in the wilderness: Prepare ye the way of the Lord, and make his paths straight; for there standeth one among you whom ye know not; and he is mightier than I, whose shoe's latchet I am not worthy to unloose. And much spake my father concerning this thing.",
+        "footnotes": [
+          {
+            "footnote": "Isa. 40:3; Matt. 3:3 (1–3); D&C 84:26.",
+            "start": 56,
+            "end": 63
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And my father said he should baptize in Bethabara, beyond Jordan; and he also said he should baptize with water; even that he should baptize the Messiah with water.",
+        "footnotes": [
+          {
+            "footnote": "John 1:28.",
+            "start": 40,
+            "end": 49
+          },
+          {
+            "footnote": "TG Jesus Christ, Baptism of.",
+            "start": 93,
+            "end": 100
+          }
+        ],
+        "associatedContents": [
+          {
+            "type": "paper-page-number",
+            "data": 18
+          }
+        ],
+        "italics": []
+      },
+      {
+        "text": "And after he had baptized the Messiah with water, he should behold and bear record that he had baptized the Lamb of God, who should take away the sins of the world.",
+        "footnotes": [
+          {
+            "footnote": "TG Jesus Christ, Lamb of God.",
+            "start": 108,
+            "end": 112
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And it came to pass after my father had spoken these words he spake unto my brethren concerning the gospel which should be preached among the Jews, and also concerning the dwindling of the Jews in unbelief. And after they had slain the Messiah, who should come, and after he had been slain he should rise from the dead, and should make himself manifest, by the Holy Ghost, unto the Gentiles.",
+        "footnotes": [
+          {
+            "footnote": "Rom. 11:1 (1–36); Jacob 4:15 (14–18).",
+            "start": 172,
+            "end": 181
+          },
+          {
+            "footnote": "Morm. 5:14 (14–20). TG Unbelief.",
+            "start": 197,
+            "end": 205
+          },
+          {
+            "footnote": "TG Jesus Christ, Crucifixion of; Jesus Christ, Prophecies about.",
+            "start": 226,
+            "end": 231
+          },
+          {
+            "footnote": "TG Jesus Christ, Resurrection.",
+            "start": 300,
+            "end": 304
+          },
+          {
+            "footnote": "3 Ne. 15:23 (21–24). TG Holy Ghost, Mission of.",
+            "start": 344,
+            "end": 352
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Yea, even my father spake much concerning the Gentiles, and also concerning the house of Israel, that they should be compared like unto an olive tree, whose branches should be broken off and should be scattered upon all the face of the earth.",
+        "footnotes": [
+          {
+            "footnote": "Gen. 49:22 (22–26); 1 Ne. 15:12; 2 Ne. 3:5 (4–5); Jacob 5:3 (3–77); 6:1 (1–7). TG Vineyard of the Lord.",
+            "start": 139,
+            "end": 149
+          },
+          {
+            "footnote": "TG Israel, Bondage of, in Other Lands.",
+            "start": 157,
+            "end": 165
+          },
+          {
+            "footnote": "Deut. 32:26; 1 Ne. 22:3 (3–8). TG Israel, Scattering of.",
+            "start": 201,
+            "end": 210
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Wherefore, he said it must needs be that we should be led with one accord into the land of promise, unto the fulfilling of the word of the Lord, that we should be scattered upon all the face of the earth.",
+        "footnotes": [
+          {
+            "footnote": "1 Ne. 2:20. TG Promised Lands.",
+            "start": 83,
+            "end": 98
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And after the house of Israel should be scattered they should be gathered together again; or, in fine, after the Gentiles had received the fulness of the Gospel, the natural branches of the olive tree, or the remnants of the house of Israel, should be grafted in, or come to the knowledge of the true Messiah, their Lord and their Redeemer.",
+        "footnotes": [
+          {
+            "footnote": "TG Israel, Ten Lost Tribes of.",
+            "start": 23,
+            "end": 29
+          },
+          {
+            "footnote": "TG Israel, Gathering of.",
+            "start": 65,
+            "end": 73
+          },
+          {
+            "footnote": "1 Ne. 13:42; D&C 14:10.",
+            "start": 113,
+            "end": 121
+          },
+          {
+            "footnote": "TG Gospel.",
+            "start": 154,
+            "end": 160
+          },
+          {
+            "footnote": "1 Ne. 15:7.",
+            "start": 190,
+            "end": 200
+          },
+          {
+            "footnote": "TG Israel, Remnant of.",
+            "start": 209,
+            "end": 217
+          },
+          {
+            "footnote": "TG Israel, Twelve Tribes of.",
+            "start": 234,
+            "end": 240
+          },
+          {
+            "footnote": "1 Ne. 19:15 (14–17).",
+            "start": 267,
+            "end": 271
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And after this manner of language did my father prophesy and speak unto my brethren, and also many more things which I do not write in this book; for I have written as many of them as were expedient for me in mine other book.",
+        "footnotes": [
+          {
+            "footnote": "1 Ne. 1:17 (16–18).",
+            "start": 214,
+            "end": 224
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And all these things, of which I have spoken, were done as my father dwelt in a tent, in the valley of Lemuel.",
+        "footnotes": [
+          {
+            "footnote": "1 Ne. 2:15 (15–16).",
+            "start": 80,
+            "end": 84
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And it came to pass after I, Nephi, having heard all the words of my father, concerning the things which he saw in a vision, and also the things which he spake by the power of the Holy Ghost, which power he received by faith on the Son of God—and the Son of God was the Messiah who should come—I, Nephi, was desirous also that I might see, and hear, and know of these things, by the power of the Holy Ghost, which is the gift of God unto all those who diligently seek him, as well in times of old as in the time that he should manifest himself unto the children of men.",
+        "footnotes": [
+          {
+            "footnote": "Enos 1:3; Alma 36:17 (17–18).",
+            "start": 57,
+            "end": 62
+          },
+          {
+            "footnote": "1 Ne. 8:2.",
+            "start": 117,
+            "end": 123
+          },
+          {
+            "footnote": "TG Jesus Christ, Messiah.",
+            "start": 270,
+            "end": 277
+          },
+          {
+            "footnote": "2 Ne. 4:24.",
+            "start": 308,
+            "end": 316
+          },
+          {
+            "footnote": "2 Pet. 1:21.",
+            "start": 396,
+            "end": 406
+          },
+          {
+            "footnote": "TG God, Gifts of; Holy Ghost, Gift of.",
+            "start": 421,
+            "end": 425
+          },
+          {
+            "footnote": "Moro. 7:36; 10:7 (4–5, 7, 19).",
+            "start": 438,
+            "end": 441
+          },
+          {
+            "footnote": "D&C 20:26.",
+            "start": 493,
+            "end": 496
+          }
+        ],
+        "associatedContents": [
+          {
+            "type": "paper-page-number",
+            "data": 19
+          }
+        ],
+        "italics": []
+      },
+      {
+        "text": "For he is the same yesterday, today, and forever; and the way is prepared for all men from the foundation of the world, if it so be that they repent and come unto him.",
+        "footnotes": [
+          {
+            "footnote": "Heb. 13:8; Morm. 9:9 (9–11); D&C 20:12. TG God, Perfection of.",
+            "start": 14,
+            "end": 18
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "For he that diligently seeketh shall find; and the mysteries of God shall be unfolded unto them, by the power of the Holy Ghost, as well in these times as in times of old, and as well in times of old as in times to come; wherefore, the course of the Lord is one eternal round.",
+        "footnotes": [
+          {
+            "footnote": "TG Objectives.",
+            "start": 23,
+            "end": 30
+          },
+          {
+            "footnote": "TG Mysteries of Godliness.",
+            "start": 51,
+            "end": 60
+          },
+          {
+            "footnote": "TG Holy Ghost, Source of Testimony.",
+            "start": 117,
+            "end": 127
+          },
+          {
+            "footnote": "Alma 7:20; 37:12; D&C 3:2; 35:1. TG God, Eternal Nature of.",
+            "start": 236,
+            "end": 242
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Therefore remember, O man, for all thy doings thou shalt be brought into judgment.",
+        "footnotes": [
+          {
+            "footnote": "Eccl. 12:14; Ezek. 33:20. TG Judgment, the Last.",
+            "start": 73,
+            "end": 81
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Wherefore, if ye have sought to do wickedly in the days of your probation, then ye are found unclean before the judgment-seat of God; and no unclean thing can dwell with God; wherefore, ye must be cast off forever.",
+        "footnotes": [
+          {
+            "footnote": "Ezek. 33:9.",
+            "start": 35,
+            "end": 43
+          },
+          {
+            "footnote": "TG Probation.",
+            "start": 64,
+            "end": 73
+          },
+          {
+            "footnote": "1 Cor. 6:9 (9–10); Morm. 7:7; D&C 76:62 (50–62); 138:20, 37; Moses 6:57.",
+            "start": 93,
+            "end": 100
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "And the Holy Ghost giveth authority that I should speak these things, and deny them not.",
+        "footnotes": [
+          {
+            "footnote": "TG Holy Ghost, Mission of.",
+            "start": 26,
+            "end": 35
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      }
+    ]
+  }
+}
