@@ -1,0 +1,330 @@
+{
+  "_id": "isaiah55",
+  "nextChapterId": "isaiah56",
+  "prevChapterId": "isaiah54",
+  "volume": {
+    "title": "Old Testament",
+    "titleShort": "OT",
+    "titleOfficial": "The Old Testament",
+    "_id": "oldtestament"
+  },
+  "book": {
+    "title": "Isaiah",
+    "titleShort": "Isa",
+    "titleOfficial": "",
+    "subtitle": "",
+    "summary": "",
+    "_id": "isaiah"
+  },
+  "chapter": {
+    "bookTitle": "Isaiah",
+    "delineation": "Chapter",
+    "number": 55,
+    "summary": "Come and drink; salvation is free—The Lord will make an everlasting covenant with Israel—Seek the Lord while He is near.",
+    "chapterAugmentations": [],
+    "verses": [
+      {
+        "text": "Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price.",
+        "footnotes": [
+          {
+            "footnote": "Ps. 42:2 (1–3); 143:6 (5–12); Luke 6:21; John 4:14 (13–15); 7:37 (37–39); 2 Ne. 9:50 (50–51).",
+            "start": 19,
+            "end": 28
+          },
+          {
+            "footnote": "TG Living Water.",
+            "start": 45,
+            "end": 51
+          },
+          {
+            "footnote": "2 Ne. 26:25.",
+            "start": 114,
+            "end": 117
+          },
+          {
+            "footnote": "Matt. 10:8.",
+            "start": 158,
+            "end": 163
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Wherefore do ye spend money for that which is not bread? and your labour for that which satisfieth not? hearken diligently unto me, and eat ye that which is good, and let your soul delight itself in fatness.",
+        "footnotes": [
+          {
+            "footnote": "TG Waste.",
+            "start": 16,
+            "end": 21
+          },
+          {
+            "footnote": "TG Labor.",
+            "start": 66,
+            "end": 72
+          },
+          {
+            "footnote": "TG Diligence.",
+            "start": 112,
+            "end": 122
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 32,
+            "end": 45
+          },
+          {
+            "start": 77,
+            "end": 87
+          },
+          {
+            "start": 143,
+            "end": 156
+          }
+        ]
+      },
+      {
+        "text": "Incline your ear, and come unto me: hear, and your soul shall live; and I will make an everlasting covenant with you, even the sure mercies of David.",
+        "footnotes": [
+          {
+            "footnote": "Matt. 11:28 (28–30); John 6:44; Heb. 7:25; 3 Ne. 12:20 (19–20); D&C 45:46 (45–46); 132:12.",
+            "start": 22,
+            "end": 26
+          },
+          {
+            "footnote": "TG Soul.",
+            "start": 51,
+            "end": 55
+          },
+          {
+            "footnote": "TG New and Everlasting Covenant.",
+            "start": 99,
+            "end": 107
+          },
+          {
+            "footnote": "Acts 13:34 (26–41).",
+            "start": 127,
+            "end": 131
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 118,
+            "end": 122
+          }
+        ]
+      },
+      {
+        "text": "Behold, I have given him for a witness to the people, a leader and commander to the people.",
+        "footnotes": [
+          {
+            "footnote": "TG Jesus Christ, Prophecies about.",
+            "start": 31,
+            "end": 38
+          },
+          {
+            "footnote": "Ezek. 34:23; John 10:3 (1–16); 18:37.",
+            "start": 56,
+            "end": 62
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 25,
+            "end": 28
+          }
+        ]
+      },
+      {
+        "text": "Behold, thou shalt call a nation that thou knowest not, and nations that knew not thee shall run unto thee because of the Lord thy God, and for the Holy One of Israel; for he hath glorified thee.",
+        "footnotes": [
+          {
+            "footnote": "Isa. 60:5; Zech. 2:11 (10–12). TG Israel, Mission of.",
+            "start": 60,
+            "end": 67
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 33,
+            "end": 37
+          },
+          {
+            "start": 68,
+            "end": 72
+          }
+        ]
+      },
+      {
+        "text": "Seek ye the Lord while he may be found, call ye upon him while he is near:",
+        "footnotes": [
+          {
+            "footnote": "TG God, Access to.",
+            "start": 0,
+            "end": 4
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "Let the wicked forsake his way, and the unrighteous man his thoughts: and let him return unto the Lord, and he will have mercy upon him; and to our God, for he will abundantly pardon.",
+        "footnotes": [
+          {
+            "footnote": "TG Repent.",
+            "start": 82,
+            "end": 88
+          },
+          {
+            "footnote": "Ps. 130:7.",
+            "start": 176,
+            "end": 182
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "For my thoughts are not your thoughts, neither are your ways my ways, saith the Lord.",
+        "footnotes": [
+          {
+            "footnote": "TG God, Intelligence of; God, Will of; God, Wisdom of; Intelligence; Motivations.",
+            "start": 7,
+            "end": 15
+          },
+          {
+            "footnote": "1 Sam. 16:7; Ezek. 28:2.",
+            "start": 24,
+            "end": 28
+          },
+          {
+            "footnote": "Prov. 14:12.",
+            "start": 56,
+            "end": 60
+          },
+          {
+            "footnote": "Jacob 4:8.",
+            "start": 64,
+            "end": 68
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 16,
+            "end": 19
+          },
+          {
+            "start": 47,
+            "end": 50
+          }
+        ]
+      },
+      {
+        "text": "For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.",
+        "footnotes": [
+          {
+            "footnote": "TG Spirituality.",
+            "start": 56,
+            "end": 60
+          },
+          {
+            "footnote": "Job 33:12; Abr. 3:19.",
+            "start": 61,
+            "end": 67
+          },
+          {
+            "footnote": "Ps. 139:17 (17–24).",
+            "start": 91,
+            "end": 99
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 4,
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "For as the rain cometh down, and the snow from heaven, and returneth not thither, but watereth the earth, and maketh it bring forth and bud, that it may give seed to the sower, and bread to the eater:",
+        "footnotes": [
+          {
+            "footnote": "TG Nature, Earth.",
+            "start": 11,
+            "end": 15
+          },
+          {
+            "footnote": "TG Bread.",
+            "start": 181,
+            "end": 186
+          }
+        ],
+        "associatedContents": [],
+        "italics": []
+      },
+      {
+        "text": "So shall my word be that goeth forth out of my mouth: it shall not return unto me void, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it.",
+        "footnotes": [
+          {
+            "footnote": "Deut. 32:2; Ezek. 12:25; D&C 121:45.",
+            "start": 12,
+            "end": 16
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 154,
+            "end": 166
+          }
+        ]
+      },
+      {
+        "text": "For ye shall go out with joy, and be led forth with peace: the mountains and the hills shall break forth before you into singing, and all the trees of the field shall clap their hands.",
+        "footnotes": [
+          {
+            "footnote": "TG Joy.",
+            "start": 25,
+            "end": 28
+          },
+          {
+            "footnote": "1 Chr. 16:33 (31–33); D&C 128:23 (22–23).",
+            "start": 142,
+            "end": 147
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 172,
+            "end": 177
+          }
+        ]
+      },
+      {
+        "text": "Instead of the thorn shall come up the fir tree, and instead of the brier shall come up the myrtle tree: and it shall be to the Lord for a name, for an everlasting sign that shall not be cut off.",
+        "footnotes": [
+          {
+            "footnote": "HEB cypress tree. TG Earth, Renewal of.",
+            "start": 39,
+            "end": 47
+          }
+        ],
+        "associatedContents": [],
+        "italics": [
+          {
+            "start": 169,
+            "end": 173
+          }
+        ]
+      }
+    ]
+  }
+}
