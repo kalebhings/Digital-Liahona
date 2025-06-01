@@ -1,21 +1,3 @@
-"""Neo4j bulk importer for
-- Standard Works (JSON export from Digital‑Liahona project)
-- General‑Conference talks + topic mappings
-- Topical Guide + Bible Dictionary
-
-Highlights
-==========
-* **Uniform leaf nodes** – scripture `Verse` and conference‐talk `Paragraph` nodes
-  share identical properties (`text`, `number`, `embedding`, `reference`).
-* **Semantic ready** – every leaf node stores a 768‑d cosine embedding (Ollama
-  **nomic‑embed‑text**) with 2 vector indexes.
-* **Single topic graph** – topics coming from *topic_talk_mappings.json*,
-  *topical_guide.json*, and the Bible Dictionary are all consolidated to
-  `(:Topic)` and connected via `[:MENTIONS]` to either talks, paragraphs or
-  verses.
-* **Source abstraction** – every top‑level document (scripture volume | GC talk
-  | BD entry) gets a `(:Source)` wrapper to enable uniform traversals.
-"""
 from __future__ import annotations
 
 from pathlib import Path
@@ -28,15 +10,15 @@ import ollama                      # local inference server
 from neo4j import GraphDatabase, Driver
 
 ###############################################################################
-# connection & directory constants – edit to suit your box
+# connection & directory constants
 ###############################################################################
 NEO4J_URI      = "bolt://localhost:7687"
 NEO4J_USER     = "neo4j"
 NEO4J_PASSWORD = "password"
 
-OLLAMA_MODEL   = "nomic-embed-text"   # 768‑d cosine space
+OLLAMA_MODEL   = "nomic-embed-text"   
 
-DATA_ROOT              = Path("data")   # Digital‑Liahona JSON dump + extras
+DATA_ROOT              = Path("data")   
 SCRIPTURE_VOLUMES      = {
     "bookofmormon":        "Book of Mormon",
     "newtestament":       "New Testament",
@@ -342,7 +324,7 @@ def import_all_scriptures(imp: Neo4jImporter):
         vdir = DATA_ROOT / vol_key
         meta_file = vdir / f"{vol_key}_data.json"
         if not meta_file.exists():
-            print(f"⚠️  missing {meta_file}")
+            print(f"[!]  missing {meta_file}")
             continue
         imp.import_volume(vdir, cln(json.load(meta_file.open("r", encoding="utf-8"))))
 
@@ -361,7 +343,7 @@ def main():
     if TOPICAL_GUIDE_FILE.exists():  imp.import_topical_guide(TOPICAL_GUIDE_FILE)
     if BIBLE_DICT_FILE.exists():     imp.import_bible_dictionary(BIBLE_DICT_FILE)
 
-    imp.close(); print("✅  Import finished")
+    imp.close(); print("[!] ]Import finished")
 
 
 if __name__ == "__main__":
