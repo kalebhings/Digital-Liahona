@@ -74,7 +74,18 @@ def slugify(txt: str, max_len: int = 110) -> str:
     return txt[:max_len]
 
 def unique_talk_id(title: str, season: str | None, year: int | str | None) -> str:
-    return slugify(f"{title}-{season or 'na'}-{year or 'na'}")
+    # Ensure we have string values for concatenation
+    title = str(title) if title else "untitled"
+    season = str(season) if season else "na"
+    year = str(year) if year else "na"
+    
+    # Clean up empty or None values
+    if season.lower() in ("", "none", "null", "na", "n/a"):
+        season = "na"
+    if year.lower() in ("", "none", "null", "na", "n/a", "0"):
+        year = "na"
+        
+    return slugify(f"{title}-{season}-{year}")
 
 def embed(text: str) -> List[float]:
     try:
@@ -169,22 +180,45 @@ class Neo4jImporter:
     # ───────── talks & paragraphs ─────────
     def import_conference_talks(self, p: Path):
         cl=Cleaner(); talks=cl(json.load(p.open()))
+        seen_ids = set()
         for t in talks:
             st = time.time()
-            tid=unique_talk_id(t["title"], t.get("season"), t.get("year"))
-            self._run("""MERGE (t:Talk {id:$id}) SET t.title=$title, t.year=$y, t.season=$s, t.url=$u
-                        MERGE (src:Source {id:$sid}) SET src.kind='Talk', src.name=$title MERGE (src)-[:SOURCE_OF]->(t)""",
-                      id=tid,title=t["title"],y=int(t.get("year",0)),s=t.get("season"),u=t.get("url"),sid=f"src-{tid}")
-            if sp:=t.get("speaker"):
-                self._run("MERGE (sp:Speaker {name:$n}) MERGE (sp)-[:GAVE]->(t:Talk {id:$id})", n=sp, id=tid)
-            stmts=[]
-            for para in t.get("content", []):
-                num,text=para["paragraph_number"], para["paragraph"]
-                pid=f"{tid}_{num}"
-                stmts.append(("MERGE (p:Paragraph {id:$id}) SET p.text=$tx, p.number=$n, p.embedding=$emb WITH p MATCH (t:Talk {id:$tid}) MERGE (t)-[:CONTAINS]->(p)",
-                              dict(id=pid,tx=text,n=num,emb=embed(text),tid=tid)))
-            self._batch(stmts)
-            print(f"Talk {tid} imported in {time.time() - st:.2f} seconds")
+            title, season, year = t["title"], t.get("season"), t.get("year")
+            tid = unique_talk_id(title, season, year)
+            
+            if tid in seen_ids:
+                print(f"⚠ Duplicate talk ID found: {tid}")
+                print(f"  Title: {title}")
+                print(f"  Season: {season}")
+                print(f"  Year: {year}")
+                # Append a unique suffix to make the ID unique
+                counter = 1
+                while f"{tid}-{counter}" in seen_ids:
+                    counter += 1
+                tid = f"{tid}-{counter}"
+                print(f"  New ID: {tid}")
+            
+            seen_ids.add(tid)
+            
+            try:
+                self._run("""MERGE (t:Talk {id:$id}) SET t.title=$title, t.year=$y, t.season=$s, t.url=$u
+                            MERGE (src:Source {id:$sid}) SET src.kind='Talk', src.name=$title MERGE (src)-[:SOURCE_OF]->(t)""",
+                          id=tid,title=title,y=int(year if year else 0),s=season,u=t.get("url"),sid=f"src-{tid}")
+                
+                if sp:=t.get("speaker"):
+                    self._run("MERGE (sp:Speaker {name:$n}) WITH sp MATCH (t:Talk {id:$id}) MERGE (sp)-[:GAVE]->(t)", n=sp, id=tid)
+                
+                stmts=[]
+                for para in t.get("content", []):
+                    num,text=para["paragraph_number"], para["paragraph"]
+                    pid=f"{tid}_{num}"
+                    stmts.append(("MERGE (p:Paragraph {id:$id}) SET p.text=$tx, p.number=$n, p.embedding=$emb WITH p MATCH (t:Talk {id:$tid}) MERGE (t)-[:CONTAINS]->(p)",
+                                  dict(id=pid,tx=text,n=num,emb=embed(text),tid=tid)))
+                self._batch(stmts)
+                print(f"Talk {tid} imported in {time.time() - st:.2f} seconds")
+            except Exception as e:
+                print(f"Error importing talk {tid}: {str(e)}")
+                continue
 
     # ───────── topics & mappings ─────────
     def _merge_topic(self,name:str,**extra): self._run("MERGE (tp:Topic {name:$n}) SET tp += $e", n=name, e=extra)
