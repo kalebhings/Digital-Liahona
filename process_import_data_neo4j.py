@@ -57,16 +57,38 @@ CYPHER_INDEXES = [
 class Cleaner:
     _COMB = re.compile(r"[\u0300-\u036f]")
     _WS   = re.compile(r"\s+")
+
+    @staticmethod
+    def _debake(s: str) -> str:
+        """
+        Repair mojibake such as 'â€œ' → '“'.
+        If the string contains genuine non-Latin-1 chars (—, é, …),
+        or the re-decode fails, we simply return it unchanged.
+        """
+        try:
+            # 1 – turn the mis-decoded text back into its original bytes
+            b = s.encode("latin1")           # <-- may raise UnicodeEncodeError
+        except UnicodeEncodeError:
+            return s                         # real Unicode, nothing to fix
+        try:
+            # 2 – interpret those bytes correctly as UTF-8
+            return b.decode("utf-8")         # <-- may raise UnicodeDecodeError
+        except UnicodeDecodeError:
+            return s                         # not valid UTF-8, leave as is
+
     def __call__(self, obj):  # noqa: ANN401
         if isinstance(obj, dict):   return {k: self(v) for k, v in obj.items()}
         if isinstance(obj, list):   return [self(v) for v in obj]
         if isinstance(obj, str):
-            s = unicodedata.normalize("NFKD", obj.replace("\\/", "/"))
+            s = self._debake(obj)                       # safe now
+            s = unicodedata.normalize("NFKD", s.replace("\\/", "/"))
             s = self._COMB.sub("", s).replace("\u00a0", " ")
             return self._WS.sub(" ", s).strip()
         return obj
 
+
 def slugify(txt: str, max_len: int = 110) -> str:
+    txt = Cleaner._debake(txt)            # keep slugs free of mojibake
     txt = unicodedata.normalize("NFKD", txt)
     txt = re.sub(r"[\u0300-\u036f]", "", txt).lower()
     txt = re.sub(r"[^\w\s-]", "", txt)
@@ -267,8 +289,9 @@ def import_all(imp: Neo4jImporter):
 
 # ───────────────────────── CLI entry ─────────────────────────
 if __name__=="__main__":
+    st = time.time()
     imp=Neo4jImporter(NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD)
     imp.reset_database()
     imp.init_schema()
     import_all(imp)
-    imp.close(); print("import done")
+    imp.close(); print(f"import done in {time.time() - st:.2f} seconds")
